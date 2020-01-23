@@ -1,0 +1,135 @@
+
+/*************************************
+GENERAL
+**************************************/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(0,33,71,1) ;
+}
+
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+ }
+
+/*************************************
+HEADING
+**************************************/
+
+header {
+      float: left;
+      margin: 0 0 20px 0;
+      padding: 2px 0 0 0;
+      width: 100%;
+      justify-content:flex-end;
+      background:rgba(0,33,71,1);
+}
+
+ h1  {
+     font-family: 'Changa One', sans-serif;
+     margin: 10px 0;
+     font-size: 1.75em;
+     font-weight: normal;
+     line-height: 0.5;
+     text-align: center;
+     color: #FF0000;
+ }
+
+ #Underline-Header{
+     text-decoration-line: underline;
+ }
+
+/*************************************
+PARAGRAPH
+**************************************/
+
+#cite-paragraph{
+    margin-left: 278px
+ }
+
+ #contact-info {
+     margin: 227px;
+    margin-top: 10px;
+ }
+
+/*************************************
+NAVIGATION
+**************************************/
+ 
+nav {
+  order: 1;
+}
+
+.nav__links a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+/*************************************
+PICTURES:
+**************************************/
+img {
+   max-width: 100%;
+}
+
+.Picture {
+    float:right;
+    width:150px;
+    height:220px;
+    margin:20px;
+    border-radius: 20px;
+}
+
+ #picture-1{
+    margin-left: 89px
+ }
+
+/*************************************
+COLORS
+**************************************/
+
+ h1  {
+    color: #32673f;
+}
+
+a {
+     color: #6ab47b;
+ }
+
+body {
+    background-color: #fff;
+    color: #000;
+}
